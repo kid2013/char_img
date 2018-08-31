@@ -11,3 +11,11 @@
 + resources/ --dir: a directory to store resources
    + font_libs/ --dir: a directory to store font libs
 + outputs/ --dir: a directory to store outputs
+
+## some char images
+
+!(examples/20000.jpg)
+!(examples/20001.jpg)
+!(examples/20002.jpg)
+!(examples/20003.jpg)
+!(examples/20004.jpg)

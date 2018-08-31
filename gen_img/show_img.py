@@ -54,6 +54,7 @@ def show_img_by_idx(img_arr, idx_list , npz_file , index_name_list) :
         plt.title(index_name, fontproperties =  myfont)
         plt.imshow(img, interpolation = 'bicubic', shape = shape)
         plt.show()
+    #    cv.imwrite(str(index)+'.jpg', img)
 
 
 if __name__ == '__main__' :
