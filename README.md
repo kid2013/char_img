@@ -1,6 +1,6 @@
-#A python project to generate  char images
+# A python project to generate  char images
 
-##Requirements(tested on Ubuntu 16.04)
+## Requirements(tested on Ubuntu 16.04)
 +python 2.7
 +pygame(1.9.3 )
 +opencv-python(3.4.0)
