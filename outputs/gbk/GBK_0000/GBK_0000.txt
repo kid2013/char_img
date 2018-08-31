@@ -1,0 +1,26 @@
+#################################################
+ this is the configuration for the generated GBK_0000.npz file  
+ char file is : GBK.list
+#################################################
+###  font backgroud color  ###
+bg_color:  255,  255,  255
+###  font foreground color  ###
+###  note that font foreground color should be same with canvas color  ###
+fg_color:    0,    0,    0
+###  canvas size in pixel  ###
+screen_size:   64,   64
+### font name  ###
+font: msyh.ttc
+###  font size in pixel  ###
+font_size:   48,   48
+###  char top-left x coordinate  ###
+pos_x:    8
+###  char top-left y coordinate  ###
+pos_y:    8
+###  rotation of the char in degree  ###
+rotate:    0
+###  style for the font  ###
+style: style_normal
+### image operation taken on the char image  ###
+img_op: None
+#################################################

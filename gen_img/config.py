@@ -23,7 +23,7 @@ STYLES = {
     "style_underline"    :        freetype.STYLE_UNDERLINE,
     "style_oblique"         :        freetype.STYLE_OBLIQUE,
     "style_strong"           :        freetype.STYLE_STRONG,
-    "style_wide"                 :        freetype.STYLE_WIDE,
+    "style_wide"              :        freetype.STYLE_WIDE,
     "style_default"         :        freetype.STYLE_DEFAULT
 }
 
@@ -35,9 +35,9 @@ STYLES = {
 #==================================================
 common_cfg = {
     #   font libs
-    'font_libs' : '/home/algo/char_gen/RS_CHR01/resources/font_libs/',
+    'font_libs' : '/home/algo/char_img/char_img/resources/font_libs/',
     #   directory in which to write and read results of  generation
-    'results_dir' : '/home/algo/char_gen/RS_CHR01/outputs/gbk2',
+    'results_dir' : '/home/algo/char_img/char_img/outputs/gbk',
     #    file records all char index and name
     'char_index_name' : 'char_index_name.txt',
 }
@@ -59,15 +59,11 @@ gen_npz_cfg = {
     'fg_color' : [(0, 0, 0), (0, 0, 255), (0, 255, 0), (255, 0, 0)],
     # 'screen_color' : (255, 0, 0),
     # size should not be to large
-    #'screen_size' :  (64, 64),
-    'screen_size' :  (32, 32),
+    'screen_size' :  (64, 64),
     'font' :  [ 'msyh.ttc', 'NotoSansCJK-Regular.ttc', 'simfang.ttf', 'simhei.ttf', 'simkai.ttf'],
-    #'font_size' : (32, 32),
-    'font_size' : (28, 28),
-    # 'pos_x' : [0,  16,  32],
-    'pos_x' : [2,  16,  32],
-    # 'pos_y' : [0,  16,  32],
-    'pos_y' : [2,  16,  32],
+    'font_size' : (48, 48),
+    'pos_x' : [8,  16,  32],
+    'pos_y' : [8,  16,  32],
     'rotate' : 0,
     'style' :  ['style_normal', 'style_oblique', 'style_strong', 'style_wide', 'style_default'],
     # img_op is a string list, each string represents one transformation
@@ -98,7 +94,7 @@ show_img_cfg = {
 #==================================================
 gen_list_cfg = {
     # char set source file to generate char_list
-    'char_source_file' : '/home/algo/char_gen/RS_CHR01/emb_chars/chars/GBK.list',
+    'char_source_file' : '/home/algo/char_img/char_img/char_lists/GBK.list',
 }
 
 

@@ -232,8 +232,8 @@ def run():
     config_num = get_config_num()
     char_list = get_all_char_list()
     cur_config = init_cur_config()
-    #for cfg_i in xrange(config_num[-1]):
-    for cfg_i in xrange(1):
+    for cfg_i in xrange(config_num[-1]):
+    # for cfg_i in xrange(1):
         cur_config.update(get_cur_config(cfg_i, config_num, cur_config))
         img_list = get_cur_img_list(cur_config, char_list)
         write_res(cur_config, char_list, img_list)
