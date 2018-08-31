@@ -1,9 +1,9 @@
 # A python project to generate  char images
 
 ## Requirements(tested on Ubuntu 16.04)
-+python 2.7
-+pygame(1.9.3 )
-+opencv-python(3.4.0)
++ python 2.7
++ pygame(1.9.3 )
++ opencv-python(3.4.0)
 
 ## Project Directories
 + char_lists/ --dir: a directory to store char lists
